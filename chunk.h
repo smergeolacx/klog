@@ -11,7 +11,7 @@ typedef struct{
 	int count;
 	int capacity;
 	uint8_t* code;
-) Chunk;
+} Chunk;
 
 void initChunk(Chunk* chunk);
 void freeChunk(Chunk* chunk);
